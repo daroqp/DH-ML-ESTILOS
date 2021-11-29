@@ -1,0 +1,84 @@
+:root {
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-grisOscuro: gray;
+    --color-grisClaro: gray;
+    --color-verde: green;
+
+    --font-robocop: 'Roboto'   
+}
+
+* {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-robocop);
+}
+
+header {
+    background-color: var(--color-amarillo);
+    font-family: var(--font-robocop);
+    font-size: 12px;
+    padding: 20px;
+}
+
+.cuotasLine {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+.burger-menu {
+    background-color: var(--color-celeste);
+    padding: 7px;
+    width: 28px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 45%;
+    display: block;
+}
+
+body {
+    font-size: 12px;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.oferta {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+.footer-container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.footer-container ul li {
+    margin: 20px;
+}
+
+.footer-container ul li i{
+    color: var(--color-celeste);
+    font-size: 30px;
+}
